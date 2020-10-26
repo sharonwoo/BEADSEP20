@@ -13,3 +13,15 @@ Upon effective completion of the course, participants will be able to:
 - Organize, store and manipulate the collected data using processing libraries. For example, using special statistical operation and stream processing data tools (E.g. Spark Special Libraries). 
 - Understand various data processing, querying and persistence (E.g. Spark QL APIs) available for usage in both RDD’s and Data Frame context. Perform tasks such as filtering, selection and categorization. 
 - Implement machine learning algorithms using Spark ML libraries.
+
+## Installing development environment 
+
+### Spark, using homebrew and Python 3.6 (conda env)
+
+```
+brew cask install adoptopenjdk/openjdk/adoptopenjdk8
+brew install scala 
+brew install apache-spark
+conda install -c conda-forge pyspark 
+conda install -c conda-forge findspark 
+```
