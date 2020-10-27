@@ -19,6 +19,7 @@ Upon effective completion of the course, participants will be able to:
 ### Spark, using homebrew and Python 3.6 (conda env)
 
 ```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)" 
 brew cask install adoptopenjdk/openjdk/adoptopenjdk8
 brew install scala 
 brew install apache-spark
